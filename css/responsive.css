@@ -1,0 +1,113 @@
+/* ---for mobile--- */
+
+@media (max-width:600px) {
+
+    /* ----navbar resonsive for all pages----- */
+    nav {
+        flex-direction: column;
+    }
+
+    nav img {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    nav ul li {
+        line-height: 58px;
+    }
+
+    /* about  page responsive */
+    .main {
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    .coffee-image {
+        width: 100%;
+    }
+
+    
+}
+
+
+/* -----for tablets---ipads */
+@media screen and (min-width:600px) and (max-width:1024px) {
+
+    /* -----nav responsive for all pages---- */
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    /* --responsive for product and contact pages-- */
+
+    .row {
+        flex-direction: row;
+    }
+.align-items{
+    align-items: center;
+}
+    /* ----for product pages--- */
+    .col-lg-4 {
+        width: 35%;
+    }
+
+    .col-lg-8 {
+        width: 65%;
+    }
+
+    /* ---for contact page---- */
+    .col-lg-6 {
+        width: 50%;
+    }
+
+
+
+}
+
+/* ----for large device,desktop,laptop--- */
+@media screen and (min-width:1024px)  {
+
+    /* ---responsive for navbar of all pages--- */
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* ----resonsive for contact and product pages--- */
+    .row {
+        flex-direction: row;
+        /* justify-content: space-between; */
+    
+    }
+    .align-items{
+        align-items: center;
+    }
+
+    /* -----responsive for product pages---- */
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-8 {
+        width: 33.33%;
+    }
+
+    /* ----responsive for contact pages---- */
+    .col-lg-6 {
+        width: 50%;
+    }
+}
